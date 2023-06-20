@@ -1,0 +1,28 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+.container{
+background-color: black; 
+height: 100vh; 
+display: flex; 
+justify-content: center;
+align-items: center; 
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 40vh;
+    width: 40%;
+}
+.upper{
+    background-color: aqua;
+    height: 60%;
+
+}
+.lower{
+    background-color: blue;
+    height: 40%;
+}
