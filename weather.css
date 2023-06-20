@@ -9,24 +9,32 @@ height: 100vh;
 display: flex; 
 justify-content: center;
 align-items: center; 
+
 }
 .form{
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: black;
     height: 40vh;
     width: 40%;
+    border-radius: 30px;
 }
 .upper{
     background-color: aqua;
     height: 60%;
+    border-radius: 30px;
 
 }
 .lower{
     display: flex;
     justify-content: center;
-align-items: center;
+    align-items: center;
     background-color: blue;
     height: 40%;
+    border-radius: 30px;
 }
-
+button{
+    border-radius: 25px;
+    color: aliceblue;
+    background-color: rgba(9, 19, 28, 0.487);
+}
