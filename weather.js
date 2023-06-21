@@ -27,7 +27,7 @@ button.addEventListener("click", function(event) {
           return response.json();
      })
      .then(function(response){
-      upper.textContent =`temprature:${response.current.temp_c}`
+      upper.textContent =`temprature:${response.current.temp_c} degrees celcius`
      })
     }
 
