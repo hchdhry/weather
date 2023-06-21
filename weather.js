@@ -29,6 +29,9 @@ button.addEventListener("click", function(event) {
      .then(function(response){
       upper.textContent =`temprature:${response.current.temp_c} degrees celcius`
      })
+     .catch(function(response){
+      upper.textContent="please enter valid location"
+     })
     }
 
 
