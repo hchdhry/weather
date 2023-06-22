@@ -4,7 +4,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
   }
-  
+  .title{
+    text-align: center;
+    color: #0056b3;
+  }
   .container {
     height: 100vh;
     display: flex;
